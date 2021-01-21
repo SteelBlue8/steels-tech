@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="${loader_version}"
+
+[[mods]]
+    modId="steels_tech"
+    version="${version}"
+    displayName="Steel's tech"
+    authors="SteelBlue8, Aidan C brady (sort of) and literally everyone else involved in mekanism"
+    credits="Whoever uh. Whoever made mekanism and immersive engineering. Reverse engineering this whole entire mod. "
+    logoFile="logo.png"
+    description='''Well the INTENTION is that this mod adds a lot of fancy, semi-realistic technologies that feel kinda vanilla. Given that I don't know how to code in java though, it may not pan out that way.'''
+
+[[dependencies.steels_tech]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    side="BOTH"
+[[dependencies.steels_tech]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    side="BOTH"
+[[dependencies.steels_tech]]
+    modId="ctm"
+    mandatory=true
+    versionRange="${forge_version}"
+    side="BOTH"
